@@ -11,3 +11,4 @@ https://www.freecodecamp.com/challenges/build-a-pomodoro-clock
 codepen: (http://codepen.io/dannyhuang/pen/jBMJLL)
 
 ## Video Walk Throughs
+![](https://github.com/kuanhsuh/jsTicTacToe/blob/master/demo.gif)
