@@ -8,4 +8,6 @@ https://www.freecodecamp.com/challenges/build-a-pomodoro-clock
 
 - [ ] User Story: I can choose whether I want to play as X or O.
 
+codepen: (http://codepen.io/dannyhuang/pen/jBMJLL)
+
 ## Video Walk Throughs
