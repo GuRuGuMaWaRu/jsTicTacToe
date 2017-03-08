@@ -77,8 +77,15 @@ handlers = {
     $("table").removeClass('hide')
     $("#status").removeClass('hide')
     $("#selection").addClass('hide');
-
-    //add display to status
+  },
+  animate: function(e){
+    var animationName = 'animated shake';
+    var animationEnd = 'webkitanimationend mozanimationend msanimationend oanimationend animationend'
+    $(e).addClass(animationName)
+      .one(animationEnd, function(){
+      $(this).removeClass('animated shake');
+    });
+    // webkitanimationend mozanimationend msanimationend oanimationend animationend
   }
 }
 

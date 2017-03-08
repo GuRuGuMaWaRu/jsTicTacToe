@@ -9,6 +9,7 @@
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -45,19 +46,19 @@
             <div class="panel panel-default">
               <table class="table table-bordered table-curved hide">
                 <tr>
-                  <td id="cellOne" onclick="handlers.insertPlayerMove(0,0,model.playerOne)"></td>
-                  <td id="cellTwo" onclick="handlers.insertPlayerMove(0,1,model.playerOne)"></td>
-                  <td id="cellThree" onclick="handlers.insertPlayerMove(0,2,model.playerOne)"></td>
+                  <td id="cellOne" onclick="handlers.insertPlayerMove(0,0,model.playerOne);handlers.animate(this);"></td>
+                  <td id="cellTwo" onclick="handlers.insertPlayerMove(0,1,model.playerOne);handlers.animate(this);"></td>
+                  <td id="cellThree" onclick="handlers.insertPlayerMove(0,2,model.playerOne);handlers.animate(this);"></td>
                 </tr>
                 <tr>
-                  <td id="cellFour" onclick="handlers.insertPlayerMove(1,0,model.playerOne)"></td>
-                  <td id="cellFive" onclick="handlers.insertPlayerMove(1,1,model.playerOne)"></td>
-                  <td id="cellSix" onclick="handlers.insertPlayerMove(1,2,model.playerOne)"></td>
+                  <td id="cellFour" onclick="handlers.insertPlayerMove(1,0,model.playerOne);handlers.animate(this);"></td>
+                  <td id="cellFive" onclick="handlers.insertPlayerMove(1,1,model.playerOne);handlers.animate(this);"></td>
+                  <td id="cellSix" onclick="handlers.insertPlayerMove(1,2,model.playerOne);handlers.animate(this);"></td>
                 </tr>
                 <tr>
-                  <td id="cellSeven" onclick="handlers.insertPlayerMove(2,0,model.playerOne)"></td>
-                  <td id="cellEight" onclick="handlers.insertPlayerMove(2,1,model.playerOne)"></td>
-                  <td id="cellNine" onclick="handlers.insertPlayerMove(2,2,model.playerOne)"></td>
+                  <td id="cellSeven" onclick="handlers.insertPlayerMove(2,0,model.playerOne);handlers.animate(this);"></td>
+                  <td id="cellEight" onclick="handlers.insertPlayerMove(2,1,model.playerOne);handlers.animate(this);"></td>
+                  <td id="cellNine" onclick="handlers.insertPlayerMove(2,2,model.playerOne);handlers.animate(this);"></td>
                 </tr>
               </table>
             </div>
