@@ -1,6 +1,6 @@
 ## User Story
 
-https://www.freecodecamp.com/challenges/build-a-pomodoro-clock
+https://www.freecodecamp.com/challenges/build-a-tic-tac-toe-game
 
 - [ ] User Story: I can play a game of Tic Tac Toe with the computer.
 
